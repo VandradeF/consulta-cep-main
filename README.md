@@ -41,6 +41,10 @@
     <li><strong>Atualização em tempo real</strong>: A lista de endereços é atualizada imediatamente após novas adições.</li>
 </ul>
 
+<h3>3️⃣ Utilização de Meios Terciários para a criação do projeto</h3>
+<li><strong>LocalStorage</strong>: Foi utilizado Gemini e ChatGpt para a organização do código (Apenas). Pois a utlização das linguagens requisitadas necessitou-se de uma atenção melhor para a "estética" visivel do Recrutador</li>
+
+
 ##  Configuração e Inicialização
 
 <h3>Pré-requisitos</h3>
