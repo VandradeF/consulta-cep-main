@@ -6,6 +6,16 @@
 
 <p>O <strong>Localizador de CEP</strong> é uma aplicação web que simplifica a busca de endereços a partir de um código postal. Ele se conecta à API pública do ViaCEP para recuperar os dados e permite que os usuários salvem os endereços em seu próprio dispositivo para consultas futuras. A aplicação é desenvolvida com React, TypeScript e outras tecnologias modernas, assegurando uma experiência de usuário ágil e eficaz.</p>
 
+## ⚙️ Decisões Arquiteturais
+
+<h3>1️⃣ Utilização do TanStack Query</h3>
+
+<ul>
+    <li><strong>Armazenamento em cache de requisições</strong>: Minimiza o número de chamadas à API.</li>
+    <li><strong>Atualização automática de dados</strong>: Garante que os dados exibidos estejam sempre atualizados.</li>
+    <li><strong>Gestão de estados</strong>: Simplifica o tratamento de estados de carregamento e erros.</li>
+</ul>
+
 ## ️ Tecnologias Empregadas
 
 <ul>
@@ -15,16 +25,6 @@
     <li><strong>TanStack Query</strong>: Ferramenta de gerenciamento de estado assíncrono para requisições à API.</li>
     <li><strong>Tailwind CSS</strong>: Framework CSS para estilização rápida e responsiva.</li>
     <li><strong>LocalStorage</strong>: Armazenamento no navegador para persistência dos endereços pesquisados.</li>
-</ul>
-
-## ⚙️ Decisões Arquiteturais
-
-<h3>1️⃣ Utilização do TanStack Query</h3>
-
-<ul>
-    <li><strong>Armazenamento em cache de requisições</strong>: Minimiza o número de chamadas à API.</li>
-    <li><strong>Atualização automática de dados</strong>: Garante que os dados exibidos estejam sempre atualizados.</li>
-    <li><strong>Gestão de estados</strong>: Simplifica o tratamento de estados de carregamento e erros.</li>
 </ul>
 
 <h3>2️⃣ Emprego do Axios</h3>
